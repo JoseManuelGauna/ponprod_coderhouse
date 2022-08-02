@@ -1,0 +1,5 @@
+TERCER DESAFIO ENTREGABLE
+
+Pude incorporar grids y flex en el index.html, pero al tener una pagina nesteada dentro del "index.html" (es otra pagina que se llama "logo.html") se me descompuso sus diferentes instancias en las demas paginas.
+
+Estoy haciendo modificaciones sustanciales a la pagina original.
