@@ -1,0 +1,38 @@
+a:link {color:#B25068; text-decoration: none;}
+a:visited {color:#B25068; text-decoration: none;}
+a:hover {color: #ffb170;text-decoration: none;}
+
+body {
+    padding: 0%;
+    margin: 0px;
+    font-family: 'Nunito', sans-serif;
+}
+
+/* DESKTOP VIEW*/
+@media (min-width: 700px) {
+ul {
+    padding: 15px;
+    margin: 0%;
+    background-color: #f8d3b4;
+    display: inline-flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 46px;
+    font-size: 100%;
+    font-size-adjust: calc();
+    list-style: none;
+    width: 100vmax;
+}
+}
+
+/*MOBILE VIEW*/
+ul {
+    padding: 15px;
+    margin: 0%;
+    background-color: #f8d3b4;
+    text-align: center;
+    gap: 46px;
+    font-size: 100%;
+    font-size-adjust: calc();
+    list-style: none;
+}

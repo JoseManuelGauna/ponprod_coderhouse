@@ -3,18 +3,33 @@ a:link {color:#B25068; text-decoration: none;}
 a:visited {color:#B25068; text-decoration: none;}
 a:hover {color: #f8d3b4;text-decoration: none;}
 
-/*ESTILO BASE*/
-
+/*---------ESTILO BASE----------------------*/
 * {
     margin: 0px;
     padding: 0px;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 body {
-    background-color: #E7AB79;
-
-
+    background-color: #f8d3b4;
 }
+/*--------INDEX--------------------*/
+/*MOBILE VIEW*/
+@media (min-width: 700px) {
+    .navSmall {
+        height: 50px;    
+    }
+}
+
+/*DESKTOP VIEW*/
+iframe {
+    align-items: center;
+    grid-row: auto;
+    width: 100vmax;
+    height: 130px;
+}
+
 h1 {
     font-family: 'Nunito', sans-serif;
     font-size: 70px;
@@ -30,65 +45,8 @@ p {
     display: grid;
     align-items: center;
     justify-items: center;
-    grid-template-rows: 100vh;
 }
 
-.logoBig iframe{
-    
-    grid-row: 1/2;
-    grid-column: 1/1;
-    top: 0px;
-    height: 100vh;
-    width: 100vmax;
-}
-
-/*ESTILO INDEX*/
-
-.Lamina2 {
-    background-image: url('../assets/img/Lamina2.png');
-    background-repeat: no-repeat;
-    background-size: auto;
-    grid-row: 2/3;
-    grid-column: 1/1;
-    height: 100vh;
-    width: 100vmax;
-    display: flex;
-    flex-direction: column;
-
-}
-
-.Lamina2 h1 {
-    padding-left: 80%;
-    padding-top: 20%;
-    color: #E7AB79;
-
-
-}
-
-#tablaConCírculos {
-    background: url('../assets/img/cobo_background.png') #000;
-    background-repeat: no-repeat;
-    background-position-y: center;
-    background-size: 100vh;
-}
-
-.tablaInterna {
-    color: #f8d3b4;
-    font-size: large;
-    display: inline-flexbox;
-    flex-flow: row;
-    flex-wrap: nowrap;
-    margin: 10px;
-    padding: 5px;
- 
-}
-
-.logos {
-    width: 300px;
-    object-fit:cover;
-    justify-content: center;
-    padding: 5px;
-}
 
 #tablaHitMeUp {
     color: white;
@@ -106,7 +64,7 @@ p {
     width: 400px;
 }
 
-
+/*----------------BIO----------------------*/
 #tabla_bio {
     margin-left: 400px;
     margin-right: 400px;
@@ -130,11 +88,16 @@ p {
     display:block;
 
 }
-
-#footer {
-    font-size: 14px;
-    background-color: #4C3A51;
-    color: #E7AB79;
+/*-----------------FOOTER--------------------*/
+.footer {
     position: relative;
-    padding: 4px;
+    bottom: 0;
+    width: 100vmax;
+    height: 20px;
+    height: fit-content;
+    text-align: center;
+    justify-content: center;
+    font-size: 14px;
+    background-color: #0e0b0f;
+    color: #E7AB79;
 }

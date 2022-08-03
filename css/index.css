@@ -1,0 +1,36 @@
+/*ESTILO INDEX*/
+
+.Lamina {
+    grid-row: auto;
+    grid-column: 1;
+    height: 100vh;
+    width: 100vmax;
+}
+
+#Lam1 {
+    background-image: url(../assets/img/PORTADA.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#Lam2 {
+    background-color: #4C3A51;
+}
+
+#Lam3 {
+    background-color: #3b513a;
+}
+
+#Lam4 {
+    background-color: #cf9c24;
+}
+
+h1 {
+    font-size: 45px;
+    padding-left: 45%;
+    padding-top: 20%;
+    color: #E7AB79;
+
+}
